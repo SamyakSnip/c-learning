@@ -32,6 +32,6 @@ int main()
     int n = strlen(str);
     cout << "All permutations of the string are:" << endl;
     permute(str, 0, n - 1);
-
+    cout<<"hello"<<endl;
     return 0;
 }
